@@ -5,6 +5,10 @@ specified as part of the JSP 2.1 standard ([JSR-245](https://www.jcp.org/en/jsr/
 which has been introduced in JEE5. Additionally, JUEL 2.2 implements the JSP 2.2 maintenance release
 specification for full JEE6 compliance.
 
+## Fork motivation
+
+In order to use this implementation in Android.
+
 ## Motivation
 
 Once, the EL started as part of JSTL. Then, the EL made its way into the JSP 2.0 standard.
