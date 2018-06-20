@@ -15,7 +15,7 @@
  */
 package de.odysseus.el.util;
 
-import java.beans.FeatureDescriptor;
+import org.mini2Dx.android.beans.FeatureDescriptor;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;

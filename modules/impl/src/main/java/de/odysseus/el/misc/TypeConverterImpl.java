@@ -15,8 +15,8 @@
  */
 package de.odysseus.el.misc;
 
-import java.beans.PropertyEditor;
-import java.beans.PropertyEditorManager;
+import org.mini2Dx.android.beans.PropertyEditor;
+import org.mini2Dx.android.beans.PropertyEditorManager;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 

@@ -15,7 +15,7 @@
  */
 package javax.el;
 
-import java.beans.FeatureDescriptor;
+import org.mini2Dx.android.beans.FeatureDescriptor;
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.MissingResourceException;
@@ -50,7 +50,7 @@ public class ResourceBundleELResolver extends ELResolver {
 	/**
 	 * If the base object is a ResourceBundle, returns an Iterator containing the set of keys
 	 * available in the ResourceBundle. Otherwise, returns null. The Iterator returned must contain
-	 * zero or more instances of java.beans.FeatureDescriptor. Each info object contains information
+	 * zero or more instances of org.mini2Dx.android.beans.FeatureDescriptor. Each info object contains information
 	 * about a key in the ResourceBundle, and is initialized as follows:
 	 * <ul>
 	 * <li>displayName - The String key name</li>

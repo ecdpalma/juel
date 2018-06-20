@@ -15,7 +15,7 @@
  */
 package javax.el;
 
-import java.beans.FeatureDescriptor;
+import org.mini2Dx.android.beans.FeatureDescriptor;
 import java.lang.reflect.Array;
 import java.util.Iterator;
 

@@ -17,6 +17,22 @@
 	<name>Java Unified Expression Language API</name>
 	<version>2.2.8-SNAPSHOT</version>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.mini2Dx</groupId>
+			<artifactId>android-beans</artifactId>
+		</dependency>
+	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.mini2Dx</groupId>
+				<artifactId>android-beans</artifactId>
+				<version>1.0.0</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 	<build>
 		<plugins>
 			<plugin>
